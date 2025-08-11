@@ -1,0 +1,9 @@
+# 共通実行
+cd C:\Users\heart\PycharmProjects\youtube_app
+
+# download_cli
+## MP4
+py -m cli.download_cli "https://www.youtube.com/watch?v=9BLmohUiPG4&t=13s"
+    
+## MP3
+py -m cli.download_cli "https://www.youtube.com/watch?v=9BLmohUiPG4&t=13s" -f mp3
